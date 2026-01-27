@@ -38,6 +38,6 @@ export default class User {
         return this.userID;
     }
     setUserID(userID: string){
-        this.userID = this.userID;
+        this.userID = userID;
     }
 }

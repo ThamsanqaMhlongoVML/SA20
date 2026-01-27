@@ -9,8 +9,8 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@faker-js/faker": "^8.2.0",
-    "@playwright/test": "^1.40.0",
+    "@faker-js/faker": "^10.2.0",
+    "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.6",
     "allure-playwright": "^3.4.5"
   }
