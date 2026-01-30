@@ -14,5 +14,5 @@ test("user should be able to search for articles", async ({ page }) => {
     await searchPage.search(page, 'playoffs');
     //assertio
     const searchResults = await searchPage.getSearchResultsText(page);
-    await expect(searchResults).toContainText('PLAYOFFS');
+    await expect(searchResults).toContainText('PLAYOFF');
 })

@@ -10,9 +10,10 @@ test("user should be able to login to our application", async ({ page }) => {
     const homePage = new HomePage();
     await homePage.load(page);
     await homePage.gotoLoginPage(page);
+
     const loginPage = new LoginPage();
     await loginPage.login(page, activeUser);
-    //assertion
+    //assertions
     const welcomeMessage = homePage.getLoggedInButton(page);
     await expect(welcomeMessage).toBeVisible();
 })
