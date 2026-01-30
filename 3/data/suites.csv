@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6697","user should be able to login to our application","chromium","Fri Jan 30 11:25:19 UTC 2026","passed","Fri Jan 30 11:25:26 UTC 2026","","login.spec.ts","",""
+"","3499","user should be able to search for articles","chromium","Fri Jan 30 11:25:26 UTC 2026","passed","Fri Jan 30 11:25:29 UTC 2026","","search.spec.ts","",""
+"","2472","user should be able manually page the hero carousel","chromium","Fri Jan 30 11:25:17 UTC 2026","passed","Fri Jan 30 11:25:19 UTC 2026","","home.spec.ts","",""
+"","5772","user should view the hero carousel auto scrolls","chromium","Fri Jan 30 11:25:10 UTC 2026","passed","Fri Jan 30 11:25:16 UTC 2026","","home.spec.ts","",""
